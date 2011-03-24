@@ -4,7 +4,7 @@ from subprocess import Popen, PIPE, STDOUT
 
 nvPath = sys.argv[1]
 lockFile = "/tmp/nvwiki.lock";
-timeout = 120
+timeout = 240
 
 lock = open(lockFile, 'w')
 try:
